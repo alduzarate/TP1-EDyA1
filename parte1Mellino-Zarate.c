@@ -131,6 +131,7 @@ void destruir_array(char **array, int* cantidadElementos){
 	{
 		free(array[i]);
 	}
+	free(array);
 }
 void test_es_simbolo(){
 	char c1 = '*';
